@@ -29,7 +29,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -4875,17 +4875,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lerp: 0
   minParticleSystem:
-    startSpeed: 0
-    startSize: 0
-    simulationSpeed: 0
-    rateOverTime: 0
+    startSpeed: 3.5
+    startSize: 2
+    simulationSpeed: 0.75
+    rateOverTime: 500
     lengthScale: 0
-    maxParticleSize: 0
-    shapeRadius: 0
+    maxParticleSize: 30
+    shapeRadius: 1.2
     startColor:
       serializedVersion: 2
-      key0: {r: 1, g: 1, b: 1, a: 1}
-      key1: {r: 1, g: 1, b: 1, a: 1}
+      key0: {r: 0, g: 0.56078434, b: 1, a: 1}
+      key1: {r: 1, g: 0.42745098, b: 0, a: 0.8039216}
       key2: {r: 0, g: 0, b: 0, a: 0}
       key3: {r: 0, g: 0, b: 0, a: 0}
       key4: {r: 0, g: 0, b: 0, a: 0}
@@ -4893,7 +4893,7 @@ MonoBehaviour:
       key6: {r: 0, g: 0, b: 0, a: 0}
       key7: {r: 0, g: 0, b: 0, a: 0}
       ctime0: 0
-      ctime1: 65535
+      ctime1: 39193
       ctime2: 0
       ctime3: 0
       ctime4: 0
@@ -4901,8 +4901,8 @@ MonoBehaviour:
       ctime6: 0
       ctime7: 0
       atime0: 0
-      atime1: 65535
-      atime2: 0
+      atime1: 46517
+      atime2: 65535
       atime3: 0
       atime4: 0
       atime5: 0
@@ -4911,19 +4911,19 @@ MonoBehaviour:
       m_Mode: 0
       m_ColorSpace: -1
       m_NumColorKeys: 2
-      m_NumAlphaKeys: 2
+      m_NumAlphaKeys: 3
     colorOverLifeTime:
       serializedVersion: 2
-      key0: {r: 1, g: 1, b: 1, a: 1}
-      key1: {r: 1, g: 1, b: 1, a: 1}
-      key2: {r: 0, g: 0, b: 0, a: 0}
+      key0: {r: 0, g: 0.56078434, b: 1, a: 1}
+      key1: {r: 1, g: 0.4862745, b: 0, a: 0.61960787}
+      key2: {r: 0, g: 0, b: 0, a: 0.78039217}
       key3: {r: 0, g: 0, b: 0, a: 0}
       key4: {r: 0, g: 0, b: 0, a: 0}
       key5: {r: 0, g: 0, b: 0, a: 0}
       key6: {r: 0, g: 0, b: 0, a: 0}
       key7: {r: 0, g: 0, b: 0, a: 0}
       ctime0: 0
-      ctime1: 65535
+      ctime1: 16834
       ctime2: 0
       ctime3: 0
       ctime4: 0
@@ -4931,9 +4931,9 @@ MonoBehaviour:
       ctime6: 0
       ctime7: 0
       atime0: 0
-      atime1: 65535
-      atime2: 0
-      atime3: 0
+      atime1: 10280
+      atime2: 16962
+      atime3: 65535
       atime4: 0
       atime5: 0
       atime6: 0
@@ -4941,19 +4941,19 @@ MonoBehaviour:
       m_Mode: 0
       m_ColorSpace: -1
       m_NumColorKeys: 2
-      m_NumAlphaKeys: 2
+      m_NumAlphaKeys: 4
   middleParticleSystem:
-    startSpeed: 0
-    startSize: 0
-    simulationSpeed: 0
-    rateOverTime: 0
-    lengthScale: 0
-    maxParticleSize: 0
-    shapeRadius: 0
+    startSpeed: 9
+    startSize: 9
+    simulationSpeed: 2
+    rateOverTime: 1000
+    lengthScale: -0.3
+    maxParticleSize: 30
+    shapeRadius: 1.2
     startColor:
       serializedVersion: 2
-      key0: {r: 1, g: 1, b: 1, a: 1}
-      key1: {r: 1, g: 1, b: 1, a: 1}
+      key0: {r: 0, g: 0.33333334, b: 1, a: 1}
+      key1: {r: 1, g: 0.42745098, b: 0, a: 0.76862746}
       key2: {r: 0, g: 0, b: 0, a: 0}
       key3: {r: 0, g: 0, b: 0, a: 0}
       key4: {r: 0, g: 0, b: 0, a: 0}
@@ -4961,7 +4961,7 @@ MonoBehaviour:
       key6: {r: 0, g: 0, b: 0, a: 0}
       key7: {r: 0, g: 0, b: 0, a: 0}
       ctime0: 0
-      ctime1: 65535
+      ctime1: 37522
       ctime2: 0
       ctime3: 0
       ctime4: 0
@@ -4969,8 +4969,8 @@ MonoBehaviour:
       ctime6: 0
       ctime7: 0
       atime0: 0
-      atime1: 65535
-      atime2: 0
+      atime1: 48830
+      atime2: 65535
       atime3: 0
       atime4: 0
       atime5: 0
@@ -4979,19 +4979,19 @@ MonoBehaviour:
       m_Mode: 0
       m_ColorSpace: -1
       m_NumColorKeys: 2
-      m_NumAlphaKeys: 2
+      m_NumAlphaKeys: 3
     colorOverLifeTime:
       serializedVersion: 2
-      key0: {r: 1, g: 1, b: 1, a: 1}
-      key1: {r: 1, g: 1, b: 1, a: 1}
-      key2: {r: 0, g: 0, b: 0, a: 0}
+      key0: {r: 0, g: 0.33333334, b: 1, a: 1}
+      key1: {r: 1, g: 0.4862745, b: 0, a: 0.5764706}
+      key2: {r: 0, g: 0, b: 0, a: 0.7921569}
       key3: {r: 0, g: 0, b: 0, a: 0}
       key4: {r: 0, g: 0, b: 0, a: 0}
       key5: {r: 0, g: 0, b: 0, a: 0}
       key6: {r: 0, g: 0, b: 0, a: 0}
       key7: {r: 0, g: 0, b: 0, a: 0}
       ctime0: 0
-      ctime1: 65535
+      ctime1: 16063
       ctime2: 0
       ctime3: 0
       ctime4: 0
@@ -4999,9 +4999,9 @@ MonoBehaviour:
       ctime6: 0
       ctime7: 0
       atime0: 0
-      atime1: 65535
-      atime2: 0
-      atime3: 0
+      atime1: 9509
+      atime2: 15677
+      atime3: 65535
       atime4: 0
       atime5: 0
       atime6: 0
@@ -5009,19 +5009,19 @@ MonoBehaviour:
       m_Mode: 0
       m_ColorSpace: -1
       m_NumColorKeys: 2
-      m_NumAlphaKeys: 2
+      m_NumAlphaKeys: 4
   maxParticleSystem:
-    startSpeed: 0
-    startSize: 0
-    simulationSpeed: 0
-    rateOverTime: 0
-    lengthScale: 0
-    maxParticleSize: 0
-    shapeRadius: 0
+    startSpeed: 10
+    startSize: 10
+    simulationSpeed: 4
+    rateOverTime: 1500
+    lengthScale: -0.5
+    maxParticleSize: 30
+    shapeRadius: 1.2
     startColor:
       serializedVersion: 2
-      key0: {r: 1, g: 1, b: 1, a: 1}
-      key1: {r: 1, g: 1, b: 1, a: 1}
+      key0: {r: 0.08235294, g: 0, b: 1, a: 1}
+      key1: {r: 1, g: 0.30588236, b: 0, a: 0.76862746}
       key2: {r: 0, g: 0, b: 0, a: 0}
       key3: {r: 0, g: 0, b: 0, a: 0}
       key4: {r: 0, g: 0, b: 0, a: 0}
@@ -5029,7 +5029,7 @@ MonoBehaviour:
       key6: {r: 0, g: 0, b: 0, a: 0}
       key7: {r: 0, g: 0, b: 0, a: 0}
       ctime0: 0
-      ctime1: 65535
+      ctime1: 37137
       ctime2: 0
       ctime3: 0
       ctime4: 0
@@ -5037,8 +5037,8 @@ MonoBehaviour:
       ctime6: 0
       ctime7: 0
       atime0: 0
-      atime1: 65535
-      atime2: 0
+      atime1: 49730
+      atime2: 65535
       atime3: 0
       atime4: 0
       atime5: 0
@@ -5047,19 +5047,19 @@ MonoBehaviour:
       m_Mode: 0
       m_ColorSpace: -1
       m_NumColorKeys: 2
-      m_NumAlphaKeys: 2
+      m_NumAlphaKeys: 3
     colorOverLifeTime:
       serializedVersion: 2
-      key0: {r: 1, g: 1, b: 1, a: 1}
-      key1: {r: 1, g: 1, b: 1, a: 1}
-      key2: {r: 0, g: 0, b: 0, a: 0}
+      key0: {r: 0, g: 0.14901961, b: 1, a: 1}
+      key1: {r: 1, g: 0.4862745, b: 0, a: 0.6313726}
+      key2: {r: 0, g: 0, b: 0, a: 0.7921569}
       key3: {r: 0, g: 0, b: 0, a: 0}
       key4: {r: 0, g: 0, b: 0, a: 0}
       key5: {r: 0, g: 0, b: 0, a: 0}
       key6: {r: 0, g: 0, b: 0, a: 0}
       key7: {r: 0, g: 0, b: 0, a: 0}
       ctime0: 0
-      ctime1: 65535
+      ctime1: 15806
       ctime2: 0
       ctime3: 0
       ctime4: 0
@@ -5067,9 +5067,9 @@ MonoBehaviour:
       ctime6: 0
       ctime7: 0
       atime0: 0
-      atime1: 65535
-      atime2: 0
-      atime3: 0
+      atime1: 6811
+      atime2: 16577
+      atime3: 65535
       atime4: 0
       atime5: 0
       atime6: 0
@@ -5077,7 +5077,8 @@ MonoBehaviour:
       m_Mode: 0
       m_ColorSpace: -1
       m_NumColorKeys: 2
-      m_NumAlphaKeys: 2
+      m_NumAlphaKeys: 4
   maxRate: 0.8
-  middleRate: 0.5
+  middleRate: 0.4
   minRate: 0.01
+  zero2OneTimer: 3

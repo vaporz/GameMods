@@ -301,13 +301,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -8}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 0, y: 0.52, z: 5.99}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1001 &1036669379
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -320,9 +320,25 @@ PrefabInstance:
       propertyPath: lerp
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5088285782687900325, guid: d147e8d356499a74b98c2f59fa5ffd45, type: 3}
+      propertyPath: maxParticleSystem.shapeRadius
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: -5088285782687900325, guid: d147e8d356499a74b98c2f59fa5ffd45, type: 3}
+      propertyPath: minParticleSystem.lengthScale
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -5088285782687900325, guid: d147e8d356499a74b98c2f59fa5ffd45, type: 3}
+      propertyPath: minParticleSystem.shapeRadius
+      value: 1.2
+      objectReference: {fileID: 0}
     - target: {fileID: 162919018223938265, guid: d147e8d356499a74b98c2f59fa5ffd45, type: 3}
       propertyPath: m_Name
       value: plumeEffect_Blue
+      objectReference: {fileID: 0}
+    - target: {fileID: 6965609090830135559, guid: d147e8d356499a74b98c2f59fa5ffd45, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6965609090830135559, guid: d147e8d356499a74b98c2f59fa5ffd45, type: 3}
       propertyPath: m_LocalPosition.x
@@ -330,11 +346,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6965609090830135559, guid: d147e8d356499a74b98c2f59fa5ffd45, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6965609090830135559, guid: d147e8d356499a74b98c2f59fa5ffd45, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6965609090830135559, guid: d147e8d356499a74b98c2f59fa5ffd45, type: 3}
       propertyPath: m_LocalRotation.w

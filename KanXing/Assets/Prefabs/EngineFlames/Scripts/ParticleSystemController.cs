@@ -1,3 +1,5 @@
+using KXRocket;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -17,7 +19,7 @@ public struct ParticleSystemInfo
     public Gradient colorOverLifeTime;
 }
 
-public class ParticleSystemController : MonoBehaviour
+public class ParticleSystemController : MonoBehaviour, IParticleSystemController
 {
     private ParticleSystem _particleSystem;
     private ParticleSystemRenderer systemRenderer;
@@ -56,32 +58,32 @@ public class ParticleSystemController : MonoBehaviour
         mainModule.startSize = 0.0f;
     }
 
+    public void SetLerp(float lerp)
+    {
+        this.lerp = lerp;
+    }
 
     private void Update()
     {
-        if (Input.GetKey(KeyCode.LeftShift) && lerp != 1)
+        lerp = (float)Math.Floor(lerp * 100) / 100; // 只截取到百分位：1%
+        if (!_particleSystem.isPlaying)
         {
-            lerp += Time.deltaTime / zero2OneTimer;
-            if (lerp >= 1)
-            {
-                lerp = 1;
-            }
-
-            UpdateParticleSystem();
+            if (lerp > 0)
+                _particleSystem.Play();
+            if (lerp == 0)
+                return;
         }
 
-        if (Input.GetKey(KeyCode.LeftControl) && lerp != minRate)
+        if (lerp > 1)
+            lerp = 1;
+        else if (lerp < minRate)
         {
-
-            lerp -= Time.deltaTime / zero2OneTimer;
-            UpdateParticleSystem();
-
-            if (lerp <= minRate)
-            {
-                lerp = 0;
-                StartCoroutine(ShowOrHide(false));
-            }
+            lerp = 0;
+            if (_particleSystem.isPlaying)
+                _particleSystem.Stop(); // lerp为0则关闭粒子系统，停止渲染
+            return;
         }
+        UpdateParticleSystem();
     }
 
     private void UpdateParticleSystem()
@@ -100,10 +102,24 @@ public class ParticleSystemController : MonoBehaviour
         systemRenderer.lengthScale = Mathf.Lerp(minParticleSystem.lengthScale, maxParticleSystem.lengthScale, lerp);
         systemRenderer.maxParticleSize = Mathf.Lerp(minParticleSystem.maxParticleSize, maxParticleSystem.maxParticleSize, lerp);
 
-        shapeModule.radius = lerp >= maxRate ? maxParticleSystem.shapeRadius : lerp >= middleRate ? middleParticleSystem.shapeRadius : minParticleSystem.shapeRadius;
-
-        mainModule.startColor = new ParticleSystem.MinMaxGradient(lerp >= maxRate ? maxParticleSystem.startColor : lerp >= middleRate ? middleParticleSystem.startColor : minParticleSystem.startColor);
-        colorOverLifetimeModule.color = new ParticleSystem.MinMaxGradient(lerp >= maxRate ? maxParticleSystem.colorOverLifeTime : lerp >= middleRate ? middleParticleSystem.colorOverLifeTime : minParticleSystem.colorOverLifeTime);
+        if (lerp >= maxRate)
+        {
+            shapeModule.radius = maxParticleSystem.shapeRadius;
+            mainModule.startColor = new ParticleSystem.MinMaxGradient(maxParticleSystem.startColor); // todo 每个update都new一个，有可能内存泄漏？
+            colorOverLifetimeModule.color = new ParticleSystem.MinMaxGradient(maxParticleSystem.colorOverLifeTime);
+        }
+        else if (lerp >= middleRate)
+        {
+            shapeModule.radius = middleParticleSystem.shapeRadius;
+            mainModule.startColor = new ParticleSystem.MinMaxGradient(middleParticleSystem.startColor);
+            colorOverLifetimeModule.color = new ParticleSystem.MinMaxGradient(middleParticleSystem.colorOverLifeTime);
+        }
+        else
+        {
+            shapeModule.radius = minParticleSystem.shapeRadius;
+            mainModule.startColor = new ParticleSystem.MinMaxGradient(minParticleSystem.startColor);
+            colorOverLifetimeModule.color = new ParticleSystem.MinMaxGradient(minParticleSystem.colorOverLifeTime);
+        }
     }
 
     IEnumerator ShowOrHide(bool isShow)
