@@ -54,10 +54,10 @@ public class ModSettingsWindow : EditorWindow
         {
             OnClickSaveSettings();
         }
-        if (GUILayout.Button("Build"))
-        {
-            OnClickBuild();
-        }
+        //if (GUILayout.Button("Build"))
+        //{
+        //    OnClickBuild();
+        //}
     }
     private void OnClickSaveSettings()
     {
@@ -102,9 +102,9 @@ public class ModSettingsWindow : EditorWindow
             schema.LoadPath.SetVariableByName(AddressableAssetSettingsDefaultObject.Settings, LoadPathName);
         }
     }
-    private void OnClickBuild()
-    {
-        AddressableAssetSettingsDefaultObject.Settings.OverridePlayerVersion = string.Format("{0:yyyyMMdd-HHmmssfff}", DateTime.Now);
-        AddressableAssetSettings.BuildPlayerContent();
-    }
+    //private void OnClickBuild()
+    //{
+    //    AddressableAssetSettingsDefaultObject.Settings.OverridePlayerVersion = string.Format("{0:yyyyMMdd-HHmmssfff}", DateTime.Now);
+    //    AddressableAssetSettings.BuildPlayerContent();
+    //}
 }

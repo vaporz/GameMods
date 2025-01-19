@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2euop/F9bYs=",
+  "dgSpecHash": "kE0LD0VnTag=",
   "success": true,
-  "projectFilePath": "D:\\workspace\\Kift\\gameMods\\NewResources\\NewResources\\NewResources.csproj",
+  "projectFilePath": "D:\\workspace\\GameMods\\NewResources\\NewResources\\NewResources.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\zzxx5\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\zzxx5\\.nuget\\packages\\nlog\\5.3.4\\nlog.5.3.4.nupkg.sha512"

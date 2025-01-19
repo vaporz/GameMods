@@ -7,14 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="NLog" Version="5.3.4" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Reference Include="GameScripts">
       <HintPath>..\..\..\..\unity\rocketDemo\Builds\Windows\x86\Rocket Simulator_Data\Managed\GameScripts.dll</HintPath>
-    </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>..\..\..\..\unity\rocketDemo\Builds\Windows\x86\Rocket Simulator_Data\Managed\Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="NLog">
-      <HintPath>..\..\..\..\unity\rocketDemo\Builds\Windows\x86\Rocket Simulator_Data\Managed\NLog.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
       <HintPath>..\..\..\..\unity\rocketDemo\Builds\Windows\x86\Rocket Simulator_Data\Managed\UnityEngine.CoreModule.dll</HintPath>

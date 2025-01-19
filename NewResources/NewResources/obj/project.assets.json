@@ -99,11 +99,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\workspace\\Kift\\gameMods\\NewResources\\NewResources\\NewResources.csproj",
+      "projectUniqueName": "D:\\workspace\\GameMods\\NewResources\\NewResources\\NewResources.csproj",
       "projectName": "NewResources",
-      "projectPath": "D:\\workspace\\Kift\\gameMods\\NewResources\\NewResources\\NewResources.csproj",
+      "projectPath": "D:\\workspace\\GameMods\\NewResources\\NewResources\\NewResources.csproj",
       "packagesPath": "C:\\Users\\zzxx5\\.nuget\\packages\\",
-      "outputPath": "D:\\workspace\\Kift\\gameMods\\NewResources\\NewResources\\obj\\",
+      "outputPath": "D:\\workspace\\GameMods\\NewResources\\NewResources\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -168,7 +168,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

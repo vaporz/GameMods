@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\workspace\\Kift\\gameMods\\AutoStage\\AutoStage\\AutoStage.csproj": {}
+    "D:\\workspace\\GameMods\\AutoStage\\AutoStage\\AutoStage.csproj": {}
   },
   "projects": {
-    "D:\\workspace\\Kift\\gameMods\\AutoStage\\AutoStage\\AutoStage.csproj": {
+    "D:\\workspace\\GameMods\\AutoStage\\AutoStage\\AutoStage.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\workspace\\Kift\\gameMods\\AutoStage\\AutoStage\\AutoStage.csproj",
+        "projectUniqueName": "D:\\workspace\\GameMods\\AutoStage\\AutoStage\\AutoStage.csproj",
         "projectName": "AutoStage",
-        "projectPath": "D:\\workspace\\Kift\\gameMods\\AutoStage\\AutoStage\\AutoStage.csproj",
+        "projectPath": "D:\\workspace\\GameMods\\AutoStage\\AutoStage\\AutoStage.csproj",
         "packagesPath": "C:\\Users\\zzxx5\\.nuget\\packages\\",
-        "outputPath": "D:\\workspace\\Kift\\gameMods\\AutoStage\\AutoStage\\obj\\",
+        "outputPath": "D:\\workspace\\GameMods\\AutoStage\\AutoStage\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -50,6 +50,12 @@
       "frameworks": {
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "NLog": {
+              "target": "Package",
+              "version": "[5.3.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -66,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
