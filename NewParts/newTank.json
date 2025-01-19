@@ -1,0 +1,11 @@
+﻿{
+    "partName": "newTank",
+    "prefabName": "NewTank",
+    "type": "container",
+    "dryMass": 1.5,
+    "plugins": {
+        "container": {
+            "capacity": 15
+        }
+    }
+}

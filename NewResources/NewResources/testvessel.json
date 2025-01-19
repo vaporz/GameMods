@@ -1,0 +1,361 @@
+{
+    "id": "v1",
+    "name": "my first rocket",
+    "description": "blah blah blah",
+    "origin": { "x": 0, "y": 0.3, "z": 0 },
+    "partPositions": [
+        {
+            "id": 1,
+            "name": "newTank",
+            "isRoot": true,
+            "position": { "x": 0, "y": 8.2, "z": 0 },
+            "rotation": { "x": -90, "y": 0, "z": 0 },
+            "connectedParts": [30, 18,19,20,21,26,27,28,29]
+        },
+        {
+            "id": 18,
+            "name": "rcs",
+            "position": { "x": 0, "y": 8.8, "z": -0.42 },
+            "rotation": { "x": 90, "y": 0, "z": 0 },
+            "connectedParts": [1]
+        },
+        {
+            "id": 19,
+            "name": "rcs",
+            "position": { "x": 0, "y": 8.8, "z": 0.42 },
+            "rotation": { "x": -90, "y": 0, "z": 0 },
+            "connectedParts": [1]
+        },
+        {
+            "id": 20,
+            "name": "rcs",
+            "position": { "x": 0.42, "y": 8.8, "z": 0 },
+            "rotation": { "x": 0, "y": 0, "z": 90 },
+            "connectedParts": [1]
+        },
+        {
+            "id": 21,
+            "name": "rcs",
+            "position": { "x": -0.42, "y": 8.8, "z": 0 },
+            "rotation": { "x": 0, "y": 0, "z": -90 },
+            "connectedParts": [1]
+        },
+        {
+            "id": 26,
+            "name": "rcs",
+            "position": { "x": 0, "y": 7.55, "z": -0.42 },
+            "rotation": { "x": 90, "y": 0, "z": 0 },
+            "connectedParts": [1]
+        },
+        {
+            "id": 27,
+            "name": "rcs",
+            "position": { "x": 0, "y": 7.55, "z": 0.42 },
+            "rotation": { "x": -90, "y": 0, "z": 0 },
+            "connectedParts": [1]
+        },
+        {
+            "id": 28,
+            "name": "rcs",
+            "position": { "x": 0.42, "y": 7.55, "z": 0 },
+            "rotation": { "x": 0, "y": 0, "z": 90 },
+            "connectedParts": [1]
+        },
+        {
+            "id": 29,
+            "name": "rcs",
+            "position": { "x": -0.42, "y": 7.55, "z": 0 },
+            "rotation": { "x": 0, "y": 0, "z": -90 },
+            "connectedParts": [1]
+        },
+        {
+            "id": 30,
+            "name": "reactionWheel",
+            "position": { "x": 0, "y": 7.35, "z": 0 },
+            "rotation": { "x": 0, "y": 0, "z": 0 },
+            "connectedParts": [1,2]
+        },
+        {
+            "id": 2,
+            "name": "booster",
+            "position": { "x": 0, "y": 7, "z": 0 },
+            "rotation": { "x": 0, "y": 0, "z": 0 },
+            "connectedParts": [30,3]
+        },
+        {
+            "id": 3,
+            "name": "decoupler",
+            "position": { "x": 0, "y": 6.65, "z": 0 },
+            "rotation": { "x": 0, "y": 0, "z": 90 },
+            "connectedParts": [2,4]
+        },
+        {
+            "id": 4,
+            "name": "tank",
+            "position": { "x": 0, "y": 4.05, "z": 0 },
+            "rotation": { "x": 0, "y": 0, "z": 0 },
+            "connectedParts": [3,5,6,9,12,15]
+        },
+        {
+            "id": 5,
+            "name": "test",
+            "position": { "x": 0, "y": 1.05, "z": 0 },
+            "rotation": { "x": 0, "y": 0, "z": 0 },
+            "connectedParts": [4]
+        },
+        {
+            "id": 6,
+            "name": "decoupler",
+            "position": { "x": 0, "y": 2.05, "z": 0.6 },
+            "rotation": { "x": 0, "y": 90, "z": 0 },
+            "connectedParts": [4,7]
+        },
+        {
+            "id": 7,
+            "name": "smallTank",
+            "position": { "x": 0, "y": 2.25, "z": 1.05 },
+            "rotation": { "x": 0, "y": 90, "z": 0 },
+            "connectedParts": [6,8,22]
+        },
+        {
+            "id": 22,
+            "name": "rcs",
+            "position": { "x": 0, "y": 1.2, "z": 1.47 },
+            "rotation": { "x": -90, "y": 0, "z": 0 },
+            "connectedParts": [7]
+        },
+        {
+            "id": 8,
+            "name": "booster",
+            "position": { "x": 0, "y": 0.7, "z": 1.05 },
+            "rotation": { "x": 0, "y": 90, "z": 0 },
+            "connectedParts": [7]
+        },
+        {
+            "id": 9,
+            "name": "decoupler",
+            "position": { "x": 0.6, "y": 2.05, "z": 0 },
+            "rotation": { "x": 0, "y": 180, "z": 0 },
+            "connectedParts": [4,10]
+        },
+        {
+            "id": 10,
+            "name": "smallTank",
+            "position": { "x": 1.05, "y": 2.25, "z": 0 },
+            "rotation": { "x": 0, "y": 180, "z": 0 },
+            "connectedParts": [9,11,24]
+        },
+        {
+            "id": 24,
+            "name": "rcs",
+            "position": { "x": 1.47, "y": 1.2, "z": 0 },
+            "rotation": { "x": 0, "y": 0, "z": 90 },
+            "connectedParts": [10]
+        },
+        {
+            "id": 11,
+            "name": "booster",
+            "position": { "x": 1.05, "y": 0.7, "z": 0 },
+            "rotation": { "x": 0, "y": 180, "z": 0 },
+            "connectedParts": [10]
+        },
+        {
+            "id": 12,
+            "name": "decoupler",
+            "position": { "x": 0, "y": 2.05, "z": -0.6 },
+            "rotation": { "x": 0, "y": -90, "z": 0 },
+            "connectedParts": [4,13]
+        },
+        {
+            "id": 13,
+            "name": "smallTank",
+            "position": { "x": 0, "y": 2.25, "z": -1.05 },
+            "rotation": { "x": 0, "y": -90, "z": 0 },
+            "connectedParts": [12,14,23]
+        },
+        {
+            "id": 23,
+            "name": "rcs",
+            "position": { "x": 0, "y": 1.2, "z": -1.47 },
+            "rotation": { "x": 90, "y": 0, "z": 0 },
+            "connectedParts": [13]
+        },
+        {
+            "id": 14,
+            "name": "booster",
+            "position": { "x": 0, "y": 0.7, "z": -1.05 },
+            "rotation": { "x": 0, "y": -90, "z": 0 },
+            "connectedParts": [13]
+        },
+        {
+            "id": 15,
+            "name": "decoupler",
+            "position": { "x": -0.6, "y": 2.05, "z": 0 },
+            "rotation": { "x": 0, "y": 0, "z": 0 },
+            "connectedParts": [4,16]
+        },
+        {
+            "id": 16,
+            "name": "smallTank",
+            "position": { "x": -1.05, "y": 2.25, "z": 0 },
+            "rotation": { "x": 0, "y": 0, "z": 0 },
+            "connectedParts": [15,17,25]
+        },
+        {
+            "id": 25,
+            "name": "rcs",
+            "position": { "x": -1.47, "y": 1.2, "z": 0 },
+            "rotation": { "x": 0, "y": 0, "z": -90 },
+            "connectedParts": [16]
+        },
+        {
+            "id": 17,
+            "name": "booster",
+            "position": { "x": -1.05, "y": 0.7, "z": 0 },
+            "rotation": { "x": 0, "y": 0, "z": 0 },
+            "connectedParts": [16]
+        }
+    ],
+    "pluginConfigs": {
+        "1": {
+            "container": {
+                "resources": {
+                    "fuel":1.7,
+                    "oxidizer": 3.3
+                },
+            }
+        },
+        "4": {
+            "container": {
+                "resources": {
+                    "液氢": 4,
+                    "液氧": 8
+                }
+            }
+        },
+        "5": {
+            "engine": {
+                "gimbalEnabled": true
+            },
+        },
+        "8": {
+            "engine": {
+                "gimbalEnabled": true,
+                "availableContainerPartIDs": [7]
+            },
+        },
+        "11": {
+            "engine": {
+                "gimbalEnabled": true,
+                "availableContainerPartIDs": [10, 13]
+            },
+        },
+        "14": {
+            "engine": {
+                "gimbalEnabled": true,
+                "availableContainerPartIDs": [13]
+            },
+        },
+        "17": {
+            "engine": {
+                "gimbalEnabled": true,
+                "availableContainerPartIDs": [16, 7]
+            },
+        },
+        "6": {
+            "partinfo": {
+                "resourceFlowEnabled": true
+            },
+        },
+        "9": {
+            "partinfo": {
+                "resourceFlowEnabled": true
+            }
+        },
+        "12": {
+            "partinfo": {
+                "resourceFlowEnabled": true
+            }
+        },
+        "15": {
+            "partinfo": {
+                "resourceFlowEnabled": true
+            }
+        },
+        "16": {
+            "container": {
+                "consumeOrder": 2,
+                "resources": {
+                    "fuel":1.7,
+                    "oxidizer": 3.3
+                },
+            }
+        },
+        "13": {
+            "container": {
+                "consumeOrder": 1,
+                "resources": {
+                    "fuel":1.7,
+                    "oxidizer": 3.3
+                },
+            }
+        },
+        "10": {
+            "container": {
+                "consumeOrder": 2,
+                "resources": {
+                    "fuel":1.7,
+                    "oxidizer": 3.3
+                },
+            }
+        },
+        "7": {
+            "container": {
+                "consumeOrder": 1,
+                "resources": {
+                    "fuel":1.7,
+                    "oxidizer": 3.3
+                },
+            }
+        }
+    },
+    "stages": [
+        {
+            "index": 0,
+            "actions": [
+                { "action": "EngineActivate", "args": "17"},
+                { "action": "EngineActivate", "args": "14"},
+                { "action": "EngineActivate", "args": "11"},
+                { "action": "EngineActivate", "args": "8"},
+                { "action": "EngineActivate", "args": "5"}
+            ]
+        },
+        {
+            "index": 1,
+            "actions": [
+                { "action": "DecouplerActivate", "args": "12"},
+                { "action": "DecouplerActivate", "args": "6"}
+            ]
+        },
+        {
+            "index": 2,
+            "actions": [
+                { "action": "DecouplerActivate", "args": "15"},
+                { "action": "DecouplerActivate", "args": "9"},
+            ]
+        },
+        {
+            "index": 3,
+            "actions": [
+                { "action": "DecouplerActivate", "args": "3"},
+                { "action": "EngineDeactivate", "args": "5"}
+            ]
+        },
+        {
+            "index": 4,
+            "actions": [
+                { "action": "EngineActivate", "args": "2"}
+            ]
+        }
+    ]
+}
