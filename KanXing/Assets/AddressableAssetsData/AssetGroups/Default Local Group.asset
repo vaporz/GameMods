@@ -1,0 +1,160 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 5dd179df20f7a6e4785a17b8d95cca52
+  m_SerializeEntries:
+  - m_GUID: 0272c3b4e837c60438ac420d35954c9a
+    m_Address: Assets/Meterials/Solid.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 07147ab6f8c681d4c82af9c1b951fc96
+    m_Address: Assets/Audios/engine_activate.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0a3b2c3a34637a244818105a453ac7fa
+    m_Address: Assets/Prefabs/Parts/Engine.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 11dc4aaa4538bda47a73f4f72664c111
+    m_Address: Assets/Prefabs/Parts/UpperTank.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1f5c442d6cefbca439a7cf2a44e0bb4e
+    m_Address: Assets/Meterials/Line.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 205c9d4557e23bf4cabe08ea4cc5c00d
+    m_Address: Assets/Audios/flameout.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2666477d99f898e43b27096d33f95f55
+    m_Address: Assets/Meterials/Grass.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2afaaa6813116174aa02e03ba479c609
+    m_Address: Assets/Meterials/Decoupler.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2fe45348f1201dd46bbe87259612e145
+    m_Address: Assets/Prefabs/EngineFlames/Prefabs/plumeEffect_Yellow.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 434e47fcd959bcc4ca78bfc770af97a6
+    m_Address: Assets/Meterials/Engine.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5b3f2336549535e449d38f0b22dfa889
+    m_Address: Assets/Prefabs/EngineFlames/Textures/ribbon-sample.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6fa14b67d4f42994aa88cd187c51b214
+    m_Address: Assets/Prefabs/Parts/SmallTank.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6fc20dc9137c1be4b83e47851110e4e7
+    m_Address: Assets/Prefabs/Parts/Tank.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 722404f69db672142ab9148bb4758073
+    m_Address: Assets/Prefabs/Parts/Decoupler.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 756e8a8016b6ff74e9b480c7ab1b4326
+    m_Address: Assets/Prefabs/Parts/RCSThruster.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7eee086272ff3c74489982145ee5e639
+    m_Address: Assets/Audios/1.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 813dc363e160c1c49953112aba4754f7
+    m_Address: Assets/Meterials/Tank.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8b0e3ad389298db4a9bee4e9c09c6901
+    m_Address: Assets/Prefabs/Parts/ReactionWheel.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 964f80c308a60c04ea0c41d3cf204ffe
+    m_Address: Assets/Prefabs/Parts/Booster.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9e3a7d337c17ce6418cea9eac0f379bb
+    m_Address: Assets/Audios/decouple.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a5a37af656094de498950b96470809bf
+    m_Address: Assets/Prefabs/Parts/BoosterEngine.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ad6d33e5f14bd7b4784c135ed9939298
+    m_Address: Assets/Prefabs/Parts/Ring.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b86e81ba51f40eb40b3ce508be35ff39
+    m_Address: Assets/Prefabs/EngineFlames/Materials/flare-mat-star.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b995b2fea46a55140a808e1c81855436
+    m_Address: Assets/Prefabs/Parts/SolidBooster.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c8c282c6acbcfce458cdec2ddca67f89
+    m_Address: Assets/Audios/engine_working.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c926ef2128ee043419da7addb67116ff
+    m_Address: Assets/Meterials/LaunchPad.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d147e8d356499a74b98c2f59fa5ffd45
+    m_Address: Assets/Prefabs/EngineFlames/Prefabs/plumeEffect_Blue.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 9fd2c3ea34722f541bf0619559aa83f5, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: a4c4201209a72b041a1cfbf57658c935, type: 2}
+    - {fileID: 11400000, guid: 91edffc77915fba4eb82d4ab957529c2, type: 2}

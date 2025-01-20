@@ -1,0 +1,14 @@
+D:\workspace\GameMods\AutoStage\AutoStage\bin\Debug\netstandard2.1\AutoStage.deps.json
+D:\workspace\GameMods\AutoStage\AutoStage\bin\Debug\netstandard2.1\AutoStage.dll
+D:\workspace\GameMods\AutoStage\AutoStage\bin\Debug\netstandard2.1\AutoStage.pdb
+D:\workspace\GameMods\AutoStage\AutoStage\bin\Debug\netstandard2.1\GameScripts.dll
+D:\workspace\GameMods\AutoStage\AutoStage\bin\Debug\netstandard2.1\UnityEngine.CoreModule.dll
+D:\workspace\GameMods\AutoStage\AutoStage\obj\Debug\netstandard2.1\AutoStage.csproj.AssemblyReference.cache
+D:\workspace\GameMods\AutoStage\AutoStage\obj\Debug\netstandard2.1\AutoStage.GeneratedMSBuildEditorConfig.editorconfig
+D:\workspace\GameMods\AutoStage\AutoStage\obj\Debug\netstandard2.1\AutoStage.AssemblyInfoInputs.cache
+D:\workspace\GameMods\AutoStage\AutoStage\obj\Debug\netstandard2.1\AutoStage.AssemblyInfo.cs
+D:\workspace\GameMods\AutoStage\AutoStage\obj\Debug\netstandard2.1\AutoStage.csproj.CoreCompileInputs.cache
+D:\workspace\GameMods\AutoStage\AutoStage\obj\Debug\netstandard2.1\AutoStage.sourcelink.json
+D:\workspace\GameMods\AutoStage\AutoStage\obj\Debug\netstandard2.1\AutoStage.csproj.Up2Date
+D:\workspace\GameMods\AutoStage\AutoStage\obj\Debug\netstandard2.1\AutoStage.dll
+D:\workspace\GameMods\AutoStage\AutoStage\obj\Debug\netstandard2.1\AutoStage.pdb

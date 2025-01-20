@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\workspace\\GameMods\\AutoStage\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{43CCEA51-9DAD-4D91-8709-FA50CC6E500F}|AutoStage\\AutoStage.csproj|d:\\workspace\\gamemods\\autostage\\autostage\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{43CCEA51-9DAD-4D91-8709-FA50CC6E500F}|AutoStage\\AutoStage.csproj|solutionrelative:autostage\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43CCEA51-9DAD-4D91-8709-FA50CC6E500F}|AutoStage\\AutoStage.csproj|d:\\workspace\\gamemods\\autostage\\autostage\\autostageplugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43CCEA51-9DAD-4D91-8709-FA50CC6E500F}|AutoStage\\AutoStage.csproj|solutionrelative:autostage\\autostageplugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Readme.txt",
+              "DocumentMoniker": "D:\\workspace\\GameMods\\AutoStage\\AutoStage\\Readme.txt",
+              "RelativeDocumentMoniker": "AutoStage\\Readme.txt",
+              "ToolTip": "D:\\workspace\\GameMods\\AutoStage\\AutoStage\\Readme.txt",
+              "RelativeToolTip": "AutoStage\\Readme.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-01-19T12:40:48.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AutoStagePlugin.cs",
+              "DocumentMoniker": "D:\\workspace\\GameMods\\AutoStage\\AutoStage\\AutoStagePlugin.cs",
+              "RelativeDocumentMoniker": "AutoStage\\AutoStagePlugin.cs",
+              "ToolTip": "D:\\workspace\\GameMods\\AutoStage\\AutoStage\\AutoStagePlugin.cs",
+              "RelativeToolTip": "AutoStage\\AutoStagePlugin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T12:34:22.802Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

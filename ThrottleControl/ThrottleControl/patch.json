@@ -1,0 +1,26 @@
+{
+  "patches": [
+    {
+      "targetParts": {
+        "names":["test"]
+      },
+      "ops":{
+        "append": {
+          "ThrottleControl":{
+            "interval": 2
+          }
+        },
+        "edit": {
+          "partInfo": [
+            ["insert","$","myKey",12345],
+            ["update","$","myKey","+55"]
+          ],
+          "engine": [
+            ["insert","$","stringValue","abcd"],
+            ["update","$","stringValue",["bc","aa"]]
+          ]
+        }
+      }
+    }
+  ]
+}

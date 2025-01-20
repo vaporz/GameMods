@@ -1,0 +1,89 @@
+﻿{
+    "partName": "rcs",
+    "prefabName": "Assets/Prefabs/Parts/RCSThruster.prefab",
+    "type": "engine",
+    "dryMass": 0.1,
+    "plugins": {
+        "engine": {
+            "defaultRCSMode": true,
+            "silentActivation": true,
+            "nozzleModes":
+            [
+                [
+                    {
+                        "index": 0,
+                        "position": { "x": 0.1, "y": 0, "z": 0 },
+                        "thrustDirection": { "x": 1, "y": 0, "z": 0 },
+                        "maxThrust": 2,
+                        "gimbalAngle": 0,
+                        "propellants": [
+                            { "name":"fuel", "flow": 0.005 },
+                            { "name":"oxidizer", "flow": 0.01 }
+                        ],
+                        "audio": {
+                            "events": {
+                                "activated": "engine_activate.mp3",
+                                "running": "engine_working.mp3",
+                                "flameout": "flameout.mp3"
+                            }
+                        }
+                    },
+                    {
+                        "index": 1,
+                        "position": { "x": 0, "y": 0, "z": 0.1 },
+                        "thrustDirection": { "x": 0, "y": 0, "z": 1 },
+                        "maxThrust": 2,
+                        "gimbalAngle": 0,
+                        "propellants": [
+                            { "name":"fuel", "flow": 0.005 },
+                            { "name":"oxidizer", "flow": 0.01 }
+                        ],
+                        "audio": {
+                            "events": {
+                                "activated": "engine_activate.mp3",
+                                "running": "engine_working.mp3",
+                                "flameout": "flameout.mp3"
+                            }
+                        }
+                    },
+                    {
+                        "index": 2,
+                        "position": { "x": -0.1, "y": 0, "z": 0 },
+                        "thrustDirection": { "x": -1, "y": 0, "z": 0 },
+                        "maxThrust": 2,
+                        "gimbalAngle": 0,
+                        "propellants": [
+                            { "name":"fuel", "flow": 0.005 },
+                            { "name":"oxidizer", "flow": 0.01 }
+                        ],
+                        "audio": {
+                            "events": {
+                                "activated": "engine_activate.mp3",
+                                "running": "engine_working.mp3",
+                                "flameout": "flameout.mp3"
+                            }
+                        }
+                    },
+                    {
+                        "index": 3,
+                        "position": { "x": 0, "y": 0, "z": -0.1 },
+                        "thrustDirection": { "x": 0, "y": 0, "z": -1 },
+                        "maxThrust": 2,
+                        "gimbalAngle": 0,
+                        "propellants": [
+                            { "name":"fuel", "flow": 0.005 },
+                            { "name":"oxidizer", "flow": 0.01 }
+                        ],
+                        "audio": {
+                            "events": {
+                                "activated": "engine_activate.mp3",
+                                "running": "engine_working.mp3",
+                                "flameout": "flameout.mp3"
+                            }
+                        }
+                    }
+                ]
+            ]
+        }
+    },
+}

@@ -1,0 +1,39 @@
+﻿{
+    "partName": "solid",
+    "prefabName": "Assets/Prefabs/Parts/SolidBooster.prefab",
+    "type": "engine",
+    "dryMass": 1,
+    "plugins": {
+        "container": {
+            "capacity": 5
+        },
+        "engine": {
+            "allowShutdown": false,
+            "throttlable": false,
+            "selfFeeding": true,
+            "nozzleModes":
+            [
+                [
+                    {
+                        "index": 0,
+                        "position": { "x": 0.25, "y": 0.5, "z": 0 },
+                        "thrustDirection": { "x": 0, "y": -1, "z": 0 },
+                        "maxThrust": 150,
+                        "gimbalAngle": 5,
+                        "propellants": [
+                            { "name":"fuel", "flow": 0.2 },
+                            { "name":"oxidizer", "flow": 0.6 }
+                        ],
+                        "audio": {
+                            "events": {
+                                "activated": "engine_activate.mp3",
+                                "running": "engine_working.mp3",
+                                "flameout": "flameout.mp3"
+                            }
+                        }
+                    }
+                ]
+            ]
+        }
+    },
+}
