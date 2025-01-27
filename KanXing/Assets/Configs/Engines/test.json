@@ -10,8 +10,8 @@
                 [
                     {
                         "index": 0,
-                        "position": { "x": 0.25, "y": 0.5, "z": 0 },
-                        "thrustDirection": { "x": 0, "y": -1, "z": 0 },
+                        "position": { "x": 0.25, "y": 0, "z": -0.5 },
+                        "thrustDirection": { "x": 0, "y": 0, "z": -1 },
                         "maxThrust": 450,
                         "gimbalAngle": 2,
                         "propellants": [
@@ -26,15 +26,15 @@
                             }
                         },
                         "flame": {
-                            "position": { "x": 0, "y": -1.5, "z": 0 },
+                            "position": { "x": 0, "y": 0, "z": -1.5 },
                             "vfxName": "flame_blue",
                             "ejectionDirection":{ "x": 0, "y": 0, "z": 1 }
                         }
                     },
                     {
                         "index": 1,
-                        "position": { "x": -0.25, "y": 0.5, "z": 0 },
-                        "thrustDirection": { "x": 0, "y": -1, "z": 0 },
+                        "position": { "x": -0.25, "y": 0, "z": -0.5 },
+                        "thrustDirection": { "x": 0, "y": 0, "z": -1 },
                         "maxThrust": 450,
                         "gimbalAngle": 2,
                         "propellants": [
@@ -49,7 +49,7 @@
                             }
                         },
                         "flame": {
-                            "position": { "x": 0, "y": -1.5, "z": 0 },
+                            "position": { "x": 0, "y": 0, "z": -1.5 },
                             "vfxName": "flame_blue",
                             "ejectionDirection":{ "x": 0, "y": 0, "z": 1 }
                         }
@@ -58,8 +58,8 @@
                 [
                     {
                         "index": 0,
-                        "position": { "x": 0.25, "y": 0.5, "z": 0 },
-                        "thrustDirection": { "x": 0, "y": -1, "z": 0 },
+                        "position": { "x": 0.25, "y": 0, "z": -0.5 },
+                        "thrustDirection": { "x": 0, "y": 0, "z": -1 },
                         "maxThrust": 50,
                         "gimbalAngle": 2,
                         "propellants": [
@@ -76,8 +76,8 @@
                     },
                     {
                         "index": 1,
-                        "position": { "x": -0.25, "y": 0.5, "z": 0 },
-                        "thrustDirection": { "x": 0, "y": -1, "z": 0 },
+                        "position": { "x": -0.25, "y": 0, "z": -0.5 },
+                        "thrustDirection": { "x": 0, "y": 0, "z": -1 },
                         "maxThrust": 125,
                         "gimbalAngle": 2,
                         "propellants": [

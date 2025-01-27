@@ -1,0 +1,11 @@
+﻿{
+    "partName": "beidouGEOBody",
+    "prefabName": "Assets/北斗Mod/Prefabs/卫星主体.prefab",
+    "type": "container",
+    "dryMass": 1000,
+    "plugins": {
+        "container": {
+            "capacity": 5
+        }
+    }
+}

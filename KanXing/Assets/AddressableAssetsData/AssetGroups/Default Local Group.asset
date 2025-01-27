@@ -107,11 +107,6 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 964f80c308a60c04ea0c41d3cf204ffe
-    m_Address: Assets/Prefabs/Parts/Booster.prefab
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 9e3a7d337c17ce6418cea9eac0f379bb
     m_Address: Assets/Audios/decouple.wav
     m_ReadOnly: 0
