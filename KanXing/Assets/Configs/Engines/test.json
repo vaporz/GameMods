@@ -13,16 +13,16 @@
                         "position": { "x": 0.25, "y": 0, "z": -0.5 },
                         "thrustDirection": { "x": 0, "y": 0, "z": -1 },
                         "maxThrust": 450,
-                        "gimbalAngle": 2,
+                        "gimbalAngle": 5,
                         "propellants": [
                             { "name":"fuel", "flow": 0.12 },
                             { "name":"oxidizer", "flow": 0.24 }
                         ],
                         "audio": {
                             "events": {
-                                "activated": "engine_activate.mp3",
-                                "running": "engine_working.mp3",
-                                "flameout": "flameout.mp3"
+                                "activated": "Assets/Audios/engine_activate.mp3",
+                                "running": "Assets/Audios/engine_working.mp3",
+                                "flameout": "Assets/Audios/flameout.mp3"
                             }
                         },
                         "flame": {
@@ -36,16 +36,16 @@
                         "position": { "x": -0.25, "y": 0, "z": -0.5 },
                         "thrustDirection": { "x": 0, "y": 0, "z": -1 },
                         "maxThrust": 450,
-                        "gimbalAngle": 2,
+                        "gimbalAngle": 5,
                         "propellants": [
                             { "name":"fuel", "flow": 0.12 },
                             { "name":"oxidizer", "flow": 0.24 }
                         ],
                         "audio": {
                             "events": {
-                                "activated": "engine_activate.mp3",
-                                "running": "engine_working.mp3",
-                                "flameout": "flameout.mp3"
+                                "activated": "Assets/Audios/engine_activate.mp3",
+                                "running": "Assets/Audios/engine_working.mp3",
+                                "flameout": "Assets/Audios/flameout.mp3"
                             }
                         },
                         "flame": {
@@ -61,16 +61,16 @@
                         "position": { "x": 0.25, "y": 0, "z": -0.5 },
                         "thrustDirection": { "x": 0, "y": 0, "z": -1 },
                         "maxThrust": 50,
-                        "gimbalAngle": 2,
+                        "gimbalAngle": 5,
                         "propellants": [
                             { "name":"fuel", "flow": 0.03 },
                             { "name":"oxidizer", "flow": 0.06 }
                         ],
                         "audio": {
                             "events": {
-                                "activated": "engine_activate",
-                                "running": "engine_working",
-                                "flameout": "flameout"
+                                "activated": "Assets/Audios/engine_activate",
+                                "running": "Assets/Audios/engine_working",
+                                "flameout": "Assets/Audios/flameout"
                             }
                         }
                     },
@@ -79,16 +79,16 @@
                         "position": { "x": -0.25, "y": 0, "z": -0.5 },
                         "thrustDirection": { "x": 0, "y": 0, "z": -1 },
                         "maxThrust": 125,
-                        "gimbalAngle": 2,
+                        "gimbalAngle": 5,
                         "propellants": [
                             { "name":"fuel", "flow": 0.03 },
                             { "name":"oxidizer", "flow": 0.06 }
                         ],
                         "audio": {
                             "events": {
-                                "activated": "engine_activate",
-                                "running": "engine_working",
-                                "flameout": "flameout"
+                                "activated": "Assets/Audios/engine_activate",
+                                "running": "Assets/Audios/engine_working",
+                                "flameout": "Assets/Audios/flameout"
                             }
                         }
                     }

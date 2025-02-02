@@ -6,6 +6,9 @@
     "plugins": {
         "container": {
             "capacity": 5
+        },
+        "reactionWheel": {
+            "torque": 300
         }
     }
 }

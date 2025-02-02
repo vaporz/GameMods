@@ -26,9 +26,9 @@
                         ],
                         "audio": {
                             "events": {
-                                "activated": "engine_activate.mp3",
-                                "running": "engine_working.mp3",
-                                "flameout": "flameout.mp3"
+                                "activated": "Assets/Audios/engine_activate.mp3",
+                                "running": "Assets/Audios/engine_working.mp3",
+                                "flameout": "Assets/Audios/flameout.mp3"
                             }
                         }
                     }

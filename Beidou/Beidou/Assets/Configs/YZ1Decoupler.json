@@ -6,8 +6,13 @@
     "resourceFlowEnabled": false,
     "plugins": {
         "decoupler": {
-            "audioNames": [ "decouple.wav" ],
-            "jettisonForce": 500
+            "audio": {
+                "events": {
+                    "activate": "Assets/Audios/decouple.wav"
+                }
+            },
+            "jettisonForce": 2000,
+            "decoupleMode": "closer"
         }
     }
 }
