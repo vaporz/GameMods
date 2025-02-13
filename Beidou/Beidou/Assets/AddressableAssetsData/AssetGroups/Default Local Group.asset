@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: a442cd64187f04e438bdbab0e004a0dc
+  m_SerializeEntries:
+  - m_GUID: 03a3d1e0b30fc2646a60f4ec3e6618fd
+    m_Address: "Assets/\u5317\u6597Mod/Prefabs/YF-75\u53D1\u52A8\u673A.prefab"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 42524fef3617bc542a3c01db8d8a2e46
+    m_Address: "Assets/\u5317\u6597Mod/Prefabs/\u536B\u661F\u4E3B\u4F53.prefab"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 44f87660a02e78347a0f0c68f36a863c
+    m_Address: "Assets/\u5317\u6597Mod/Prefabs/YF-50D\u53D1\u52A8\u673A.prefab"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 81dc4f633c0a54d4a82ded5eadfbd471
+    m_Address: "Assets/\u5317\u6597Mod/Prefabs/\u540E\u5904\u7406\u6548\u679C.prefab"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8e6646e745c04b44da4a8f996285a9c0
+    m_Address: "Assets/\u5317\u6597Mod/Prefabs/\u5206\u79BB\u5668.prefab"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9dc0e45a40e845949a67f98a6d1fdbec
+    m_Address: "Assets/\u5317\u6597Mod/Prefabs/\u592A\u9633\u80FD\u677F.prefab"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c386f7b93f8a5d74d87f924e683bb26b
+    m_Address: "Assets/\u5317\u6597Mod/Prefabs/\u4E09\u5B50\u7EA7\u71C3\u6599\u7F50.prefab"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fd137b6afec923f40a9fb7c86f5ffdca
+    m_Address: "Assets/\u5317\u6597Mod/Prefabs/\u4E0A\u9762\u7EA7\u71C3\u6599\u7F50.prefab"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 895011b5e98f5964296e452100352f66, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: bed3d41d9054ed645a5ddd22d2b228ae, type: 2}
+    - {fileID: 11400000, guid: 1cad2f7e1105bb14f8a2c75a7680320c, type: 2}
