@@ -1,0 +1,14 @@
+﻿{
+    "partName": "YZ1Tank",
+    "prefabName": "Assets/北斗Mod/Prefabs/上面级燃料罐.prefab",
+    "type": "container",
+    "dryMass": 500,
+    "plugins": {
+        "container": {
+            "capacity": 1000
+        },
+        "reactionWheel": {
+            "torque": 1000
+        }
+    }
+}

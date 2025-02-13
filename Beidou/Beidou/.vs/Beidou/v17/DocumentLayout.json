@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\workspace\\GameMods\\Beidou\\Beidou\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{33EEC36D-544D-2672-CC33-15D0EA0EB9EF}|Assembly-CSharp.csproj|d:\\workspace\\gamemods\\beidou\\beidou\\assets\\\u5317\u6597mod\\scripts\\beidoucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33EEC36D-544D-2672-CC33-15D0EA0EB9EF}|Assembly-CSharp.csproj|solutionrelative:assets\\\u5317\u6597mod\\scripts\\beidoucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BeiDouController.cs",
+              "DocumentMoniker": "D:\\workspace\\GameMods\\Beidou\\Beidou\\Assets\\\u5317\u6597Mod\\Scripts\\BeiDouController.cs",
+              "RelativeDocumentMoniker": "Assets\\\u5317\u6597Mod\\Scripts\\BeiDouController.cs",
+              "ToolTip": "D:\\workspace\\GameMods\\Beidou\\Beidou\\Assets\\\u5317\u6597Mod\\Scripts\\BeiDouController.cs",
+              "RelativeToolTip": "Assets\\\u5317\u6597Mod\\Scripts\\BeiDouController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T13:40:50.553Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+﻿{
+    "partName": "YF50D",
+    "prefabName": "Assets/北斗Mod/Prefabs/YF-50D发动机_00.prefab",
+    "type": "engine",
+    "dryMass": 100,
+    "plugins": {
+        "engine": {
+            "nozzleModes":
+            [
+                [
+                    {
+                        "index": 0,
+                        "position": { "x": 0, "y": -0.3, "z": 0 },
+                        "thrustDirection": { "x": 0, "y": 0, "z": 1 },
+                        //"maxThrust": 6500,
+                        "maxThrust": 3000,
+                        "gimbalAngle": 6,
+                        "propellants": [
+                            { "name":"偏二甲肼", "flow": 0.1 },
+                            { "name":"四氧化二氮", "flow": 0.2 }
+                        ],
+                        "audio": {
+                            "events": {
+                                "activated": "Assets/Audios/engine_activate.mp3",
+                                "running": "Assets/Audios/engine_working.mp3",
+                                "flameout": "Assets/Audios/flameout.mp3"
+                            }
+                        },
+                        "flame": {
+                            "position": { "x": 0, "y": 0, "z": 1.5 },
+                            "vfxName": "flame_yellow",
+                            "ejectionDirection":{ "x": 0, "y": 0, "z": 1 }
+                        }
+                    }
+                ]
+            ]
+        }
+    }
+}

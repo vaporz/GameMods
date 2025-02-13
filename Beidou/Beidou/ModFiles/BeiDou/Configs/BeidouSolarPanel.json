@@ -1,0 +1,12 @@
+﻿{
+    "partName": "beidouSolarPanel",
+    "prefabName": "Assets/北斗Mod/Prefabs/太阳能板.prefab",
+    "type": "solarPanel",
+    "dryMass": 5,
+    "plugins": {
+        "solar_panel": {
+            "animated": true,
+            "sunTracking": true
+        }
+    }
+}

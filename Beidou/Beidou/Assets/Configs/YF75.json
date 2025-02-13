@@ -1,0 +1,39 @@
+﻿{
+    "partName": "YF75",
+    "prefabName": "Assets/北斗Mod/Prefabs/YF-75发动机组.prefab",
+    "type": "engine",
+    "dryMass": 245,
+    "plugins": {
+        "engine": {
+            "nozzleModes":
+            [
+                [
+                    {
+                        "index": 0,
+                        "position": { "x": 0, "y": -0.3, "z": 0 },
+                        "thrustDirection": { "x": 0, "y": 0, "z": -1 },
+                        //"maxThrust": 83500,
+                        "maxThrust": 10,
+                        "gimbalAngle": 6,
+                        "propellants": [
+                            { "name":"液氢", "flow": 0.1 },
+                            { "name":"液氧", "flow": 0.2 }
+                        ],
+                        "audio": {
+                            "events": {
+                                "activated": "Assets/Audios/engine_activate.mp3",
+                                "running": "Assets/Audios/engine_working.mp3",
+                                "flameout": "Assets/Audios/flameout.mp3"
+                            }
+                        },
+                        "flame": {
+                            "position": { "x": 0, "y": 0, "z": -0.7 },
+                            "vfxName": "flame_blue",
+                            "ejectionDirection":{ "x": 0, "y": 0, "z": 1 }
+                        }
+                    }
+                ]
+            ]
+        }
+    }
+}

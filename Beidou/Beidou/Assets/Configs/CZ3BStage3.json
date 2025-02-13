@@ -1,0 +1,11 @@
+﻿{
+    "partName": "CZ3BStage3",
+    "prefabName": "Assets/北斗Mod/Prefabs/三子级燃料罐.prefab",
+    "type": "container",
+    "dryMass": 2000,
+    "plugins": {
+        "container": {
+            "capacity": 18000
+        }
+    }
+}
