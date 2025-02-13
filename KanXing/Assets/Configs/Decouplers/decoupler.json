@@ -2,17 +2,12 @@
     "partName": "decoupler",
     "prefabName": "Assets/Prefabs/Parts/Decoupler.prefab",
     "type": "decoupler",
-    "dryMass": 20,
+    "dryMass": 1,
     "resourceFlowEnabled": false,
     "plugins": {
         "decoupler": {
-            "audio": {
-                "events": {
-                    "activate": "Assets/Audios/decouple.wav"
-                }
-            },
-            "jettisonForce": 2000,
-            "decoupleMode": "closer" // closer, farther, both
+            "audioNames": ["decouple.wav"],
+            "jettisonForce": 400
         }
-    }
+    },
 }

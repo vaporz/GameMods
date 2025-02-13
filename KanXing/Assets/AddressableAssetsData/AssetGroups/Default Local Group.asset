@@ -58,7 +58,7 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 2fe45348f1201dd46bbe87259612e145
-    m_Address: Assets/Prefabs/EngineFlames/plumeEffect_Yellow.prefab
+    m_Address: Assets/Prefabs/EngineFlames/Prefabs/plumeEffect_Yellow.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -68,7 +68,7 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 5b3f2336549535e449d38f0b22dfa889
-    m_Address: Assets/Textures/ribbon-sample.png
+    m_Address: Assets/Prefabs/EngineFlames/Textures/ribbon-sample.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -107,6 +107,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 964f80c308a60c04ea0c41d3cf204ffe
+    m_Address: Assets/Prefabs/Parts/Booster.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 9e3a7d337c17ce6418cea9eac0f379bb
     m_Address: Assets/Audios/decouple.wav
     m_ReadOnly: 0
@@ -123,7 +128,7 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: b86e81ba51f40eb40b3ce508be35ff39
-    m_Address: Assets/Meterials/flare-mat-star.mat
+    m_Address: Assets/Prefabs/EngineFlames/Materials/flare-mat-star.mat
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -143,7 +148,7 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: d147e8d356499a74b98c2f59fa5ffd45
-    m_Address: Assets/Prefabs/EngineFlames/plumeEffect_Blue.prefab
+    m_Address: Assets/Prefabs/EngineFlames/Prefabs/plumeEffect_Blue.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

@@ -1,0 +1,25 @@
+{
+  "patches": [
+    {
+      "targetParts": {
+        "names":["test"]
+      },
+      "ops":{
+        "edit": {
+          "engine": [
+            ["update","nozzleModes[0][0]","maxThrust","+500"],
+            ["update","nozzleModes[0][1]","maxThrust","*3"],
+            ["update","nozzleModes[0][0].propellants",[
+              { "name":"液氢", "flow": 0.1 },
+              { "name":"液氧", "flow": 0.2 }
+            ]],
+            ["update","nozzleModes[0][1].propellants",[
+              { "name":"液氢", "flow": 0.1 },
+              { "name":"液氧", "flow": 0.2 }
+            ]]
+          ]
+        }
+      }
+    }
+  ]
+}
