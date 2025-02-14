@@ -2,7 +2,7 @@
     "partName": "booster",
     "prefabName": "Assets/Prefabs/Parts/BoosterEngine.prefab",
     "type": "engine",
-    "dryMass": 1,
+    "dryMass": 100,
     "plugins": {
         "engine": {
             "nozzleModes":
@@ -10,23 +10,23 @@
                 [
                     {
                         "index": 0,
-                        "position": { "x": 0, "y": -0.3, "z": 0 },
-                        "thrustDirection": { "x": 0, "y": -1, "z": 0 },
-                        "maxThrust": 450,
+                        "position": { "x": 0, "y": 0, "z": -0.4 },
+                        "thrustDirection": { "x": 0, "y": 0, "z": -1 },
+                        "maxThrust": 10000,
                         "gimbalAngle": 2,
                         "propellants": [
-                            { "name":"fuel", "flow": 0.1 },
-                            { "name":"oxidizer", "flow": 0.2 }
+                            { "name":"LiquidFuel", "flow": 0.1 },
+                            { "name":"Oxidizer", "flow": 0.2 }
                         ],
                         "audio": {
                             "events": {
-                                "activated": "engine_activate.mp3",
-                                "running": "engine_working.mp3",
-                                "flameout": "flameout.mp3"
+                                "activated": "Assets/Audios/engine_activate.mp3",
+                                "running": "Assets/Audios/engine_working.mp3",
+                                "flameout": "Assets/Audios/flameout.mp3"
                             }
                         },
                         "flame": {
-                            "position": { "x": 0, "y": -1.5, "z": 0 },
+                            "position": { "x": 0, "y": 0, "z": -1.5 },
                             "vfxName": "flame_yellow",
                             "ejectionDirection":{ "x": 0, "y": 0, "z": 1 }
                         }

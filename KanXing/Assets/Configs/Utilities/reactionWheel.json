@@ -2,7 +2,7 @@
     "partName": "reactionWheel",
     "prefabName": "Assets/Prefabs/Parts/ReactionWheel.prefab",
     "type": "reactionWheel",
-    "dryMass": 1,
+    "dryMass": 500,
     "resourceFlowEnabled": true,
     "plugins": {
         "reactionWheel": {

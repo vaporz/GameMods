@@ -1,0 +1,18 @@
+﻿{
+    "partName": "YZ1Decouipler",
+    "prefabName": "Assets/北斗Mod/Prefabs/分离器.prefab",
+    "type": "decoupler",
+    "dryMass": 50,
+    "resourceFlowEnabled": false,
+    "plugins": {
+        "decoupler": {
+            "audio": {
+                "events": {
+                    "activate": "Assets/Audios/decouple.wav"
+                }
+            },
+            "jettisonForce": 20000,
+            "decoupleMode": "closer"
+        }
+    }
+}

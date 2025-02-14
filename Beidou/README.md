@@ -1,0 +1,2 @@
+根据测试，即使把除了 Assets，Packages和ProjectSettings文件夹以外的所有文件夹都删除，仍然可以正常打开项目和打包。
+所以，Library之类的文件夹应该是可以删除的，也不需要提交到git里。

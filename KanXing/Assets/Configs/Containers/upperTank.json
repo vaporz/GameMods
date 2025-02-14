@@ -2,7 +2,7 @@
     "partName": "upperTank",
     "prefabName": "Assets/Prefabs/Parts/UpperTank.prefab",
     "type": "container",
-    "dryMass": 2,
+    "dryMass": 80,
     "plugins": {
         "container": {
             "capacity": 3
