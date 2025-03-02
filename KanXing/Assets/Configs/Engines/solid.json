@@ -21,8 +21,8 @@
                         "maxThrust": 150,
                         "gimbalAngle": 5,
                         "propellants": [
-                            { "name":"LiquidFuel", "flow": 0.2 },
-                            { "name":"Oxidizer", "flow": 0.6 }
+                            { "name":"fuel", "flow": 0.2 },
+                            { "name":"oxidizer", "flow": 0.6 }
                         ],
                         "audio": {
                             "events": {

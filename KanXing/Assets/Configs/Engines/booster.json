@@ -2,7 +2,7 @@
     "partName": "booster",
     "prefabName": "Assets/Prefabs/Parts/BoosterEngine.prefab",
     "type": "engine",
-    "dryMass": 100,
+    "dryMass": 1,
     "plugins": {
         "engine": {
             "nozzleModes":
@@ -12,11 +12,11 @@
                         "index": 0,
                         "position": { "x": 0, "y": 0, "z": -0.4 },
                         "thrustDirection": { "x": 0, "y": 0, "z": -1 },
-                        "maxThrust": 10000,
+                        "maxThrust": 450,
                         "gimbalAngle": 2,
                         "propellants": [
-                            { "name":"LiquidFuel", "flow": 0.1 },
-                            { "name":"Oxidizer", "flow": 0.2 }
+                            { "name":"fuel", "flow": 0.1 },
+                            { "name":"oxidizer", "flow": 0.2 }
                         ],
                         "audio": {
                             "events": {

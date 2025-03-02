@@ -2,7 +2,7 @@
     "partName": "tank",
     "prefabName": "Assets/Prefabs/Parts/Tank.prefab",
     "type": "container",
-    "dryMass": 150,
+    "dryMass": 2,
     "plugins": {
         "container": {
             "capacity": 10

@@ -14,11 +14,11 @@
                         "index": 0,
                         "position": { "x": 0.1, "y": 0, "z": 0 },
                         "thrustDirection": { "x": 1, "y": 0, "z": 0 },
-                        "maxThrust": 50,
+                        "maxThrust": 2,
                         "gimbalAngle": 0,
                         "propellants": [
-                            { "name":"LiquidFuel", "flow": 0.005 },
-                            { "name":"Oxidizer", "flow": 0.01 }
+                            { "name":"fuel", "flow": 0.005 },
+                            { "name":"oxidizer", "flow": 0.01 }
                         ],
                         "audio": {
                             "events": {
@@ -32,11 +32,11 @@
                         "index": 1,
                         "position": { "x": 0, "y": 0, "z": 0.1 },
                         "thrustDirection": { "x": 0, "y": 0, "z": 1 },
-                        "maxThrust": 50,
+                        "maxThrust": 2,
                         "gimbalAngle": 0,
                         "propellants": [
-                            { "name":"LiquidFuel", "flow": 0.005 },
-                            { "name":"Oxidizer", "flow": 0.01 }
+                            { "name":"fuel", "flow": 0.005 },
+                            { "name":"oxidizer", "flow": 0.01 }
                         ],
                         "audio": {
                             "events": {
@@ -50,11 +50,11 @@
                         "index": 2,
                         "position": { "x": -0.1, "y": 0, "z": 0 },
                         "thrustDirection": { "x": -1, "y": 0, "z": 0 },
-                        "maxThrust": 50,
+                        "maxThrust": 2,
                         "gimbalAngle": 0,
                         "propellants": [
-                            { "name":"LiquidFuel", "flow": 0.005 },
-                            { "name":"Oxidizer", "flow": 0.01 }
+                            { "name":"fuel", "flow": 0.005 },
+                            { "name":"oxidizer", "flow": 0.01 }
                         ],
                         "audio": {
                             "events": {
@@ -68,11 +68,11 @@
                         "index": 3,
                         "position": { "x": 0, "y": 0, "z": -0.1 },
                         "thrustDirection": { "x": 0, "y": 0, "z": -1 },
-                        "maxThrust": 50,
+                        "maxThrust": 2,
                         "gimbalAngle": 0,
                         "propellants": [
-                            { "name":"LiquidFuel", "flow": 0.005 },
-                            { "name":"Oxidizer", "flow": 0.01 }
+                            { "name":"fuel", "flow": 0.005 },
+                            { "name":"oxidizer", "flow": 0.01 }
                         ],
                         "audio": {
                             "events": {
