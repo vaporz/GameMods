@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ThrottleControl")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4f3294dbacdd349ddcfc73f75e9923deeca1297c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+abf552002d3e628e8b43049932188d34952f5ffa")]
 [assembly: System.Reflection.AssemblyProductAttribute("ThrottleControl")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ThrottleControl")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

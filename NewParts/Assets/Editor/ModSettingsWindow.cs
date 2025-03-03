@@ -96,7 +96,7 @@ public class ModSettingsWindow : EditorWindow
         foreach (var group in AddressableAssetSettingsDefaultObject.Settings.groups)
         {
             var schema = group.GetSchema<BundledAssetGroupSchema>();
-            if (group.name.Equals(AddressableAssetSettings.PlayerDataGroupName))
+            if (group.name.Equals("Built In Data"))
                 continue;
             schema.BuildPath.SetVariableByName(AddressableAssetSettingsDefaultObject.Settings, BuildPathName);
             schema.LoadPath.SetVariableByName(AddressableAssetSettingsDefaultObject.Settings, LoadPathName);

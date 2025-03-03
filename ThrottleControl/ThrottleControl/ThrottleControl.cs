@@ -39,12 +39,12 @@ namespace ThrottleControlPlugin
             throttle = throttle < 0 ? 0 : throttle;
         }
 
-        public override void LoadPlayerPluginConfig(JObject config)
+        public override void LoadCustomPartConfigFromVesselJson(JObject config)
         {
             return;
         }
 
-        public override void LoadPartPluginConfig(JObject config)
+        public override void LoadDefaultPartConfig(JObject config)
         {
             this.config = config.ToObject<Config>();
         }
